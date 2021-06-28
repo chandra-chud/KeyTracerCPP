@@ -11,7 +11,7 @@ From Email Address Password.
 
 # How To Use
 - Now run the following commands after navigating in to the 
-~/KeyTracerC++/KeyTracer-libs file
+~/KeyTracerCPP/KeyTracer-libs file
 ```
   g++ -std=c++11 -mwindows KeyTracer.cpp -o KeyTracer
   ./KeyTracer
@@ -19,7 +19,7 @@ From Email Address Password.
 - Now, the application has started running you can verify this by checking the windows task manager and checking if "KeyTracer" application is running
 - Now an email is sent to the to address with an encrypted key log.
 - To decrypt this key log you can use the TraceDecoder in 
-~/KeyTracerC++/TraceDecoder-files
+~/KeyTracerCPP/TraceDecoder-files
 
 ```
   g++ TraceDecoder.cpp -o TraceDecoder
